@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-17T16:28:38Z" name="ZendyAsseeement" finished-at="2022-10-17T16:30:19Z" duration-ms="101080">
+    <groups>
+    </groups>
+    <test started-at="2022-10-17T16:28:38Z" name="ZendyTest" finished-at="2022-10-17T16:30:19Z" duration-ms="101080">
+      <class name="com.TestApp.Testcases.TC_SearchActive_001">
+        <test-method signature="TC_searchActive_001()[pri:0, instance:com.TestApp.Testcases.TC_SearchActive_001@1ed1993a]" started-at="2022-10-17T16:28:38Z" name="TC_searchActive_001" description="TC_Active_001" finished-at="2022-10-17T16:29:42Z" duration-ms="63262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_searchActive_001 -->
+      </class> <!-- com.TestApp.Testcases.TC_SearchActive_001 -->
+      <class name="com.TestApp.Testcases.TC_SearchAnonymous_002">
+        <test-method signature="TC_searchAnonymous_002()[pri:0, instance:com.TestApp.Testcases.TC_SearchAnonymous_002@1f3f4916]" started-at="2022-10-17T16:29:48Z" name="TC_searchAnonymous_002" description="TC_SearchAsAnonymousUser_002" finished-at="2022-10-17T16:30:13Z" duration-ms="24233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_searchAnonymous_002 -->
+      </class> <!-- com.TestApp.Testcases.TC_SearchAnonymous_002 -->
+    </test> <!-- ZendyTest -->
+  </suite> <!-- ZendyAsseeement -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZendyAsseeement" verbose="10">
+
+
+<listeners>
+	<!-- 	<listener
+			class-name="com.TestApp.base.listeners.ExtentListenerAdapter" />
+		<listener class-name="com.TestApp.base.listeners.AnnotationTransformer"/> -->
+		<listener
+			class-name="com.TestApp.base.reporting.TestNgIReporterImpl" />
+	    	
+	</listeners>
+	<test name="ZendyTest">
+		<classes>
+			<class name="com.TestApp.Testcases.TC_SearchActive_001"/>
+				<class
+				name="com.TestApp.Testcases.TC_SearchAnonymous_002" />		
+				
+		</classes>
+	</test>
+	</suite>
